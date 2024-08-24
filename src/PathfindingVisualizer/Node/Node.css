@@ -1,0 +1,40 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #b7d7f0;
+    display: inline-block;
+}
+  
+.node-finish {
+    background-image: url(../../assets/goalNode.svg);
+}
+
+.node-finish-visited {
+    background-image: url(../../assets/goalNode.svg);
+    background-color:#37a8ff;
+}
+  
+.node-start {
+    background-image: url(../../assets/startNode.svg);
+}
+
+.node-start-visited {
+    background-image: url(../../assets/startNode.svg);
+    background-color:#37a8ff;
+}
+
+.node-wall {
+    background-color: #0c3547;
+}
+
+.node-weight {
+    background-color: #6e41f6;
+}
+
+.node-visited {
+    background-color: #37a8ff;
+}
+
+.node-shortest-path {
+    background-color: #0F67B1;
+}
